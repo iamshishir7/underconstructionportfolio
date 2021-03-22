@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Lottie from 'react-lottie'
+import animationData from './assets/underconstruction.json'
+import './app.css';
 
 function App() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Lottie className='forlottie' options={defaultOptions}
+              height={350}
+              width={350}
+              
+        />
+      <h3>Hi, I'm Shishir Timalsina</h3>
+      <h4>A Full-Stack Web Developer</h4>
+
+      <h2>A great portfolio is underconstruction</h2>
+      <p>Contact <br/> <a href='mailto:info@shishirtimalsina.com'>info@shishirtimalsina.com</a></p>
+
+
     </div>
   );
 }
