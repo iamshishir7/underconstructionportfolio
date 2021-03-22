@@ -21,7 +21,7 @@ function App() {
       <h3>Hi, I'm Shishir Timalsina</h3>
       <h4>A Full-Stack Web Developer</h4>
 
-      <h2>A great portfolio is underconstruction!</h2>
+      <h2>A great portfolio is under construction!</h2>
       <p>Contact <br/> <a href='mailto:info@shishirtimalsina.com'>info@shishirtimalsina.com</a></p>
 
 
