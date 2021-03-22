@@ -1,6 +1,6 @@
 import Lottie from 'react-lottie'
 import animationData from './assets/underconstruction.json'
-import './app.css';
+import './App.css';
 
 function App() {
   const defaultOptions = {
