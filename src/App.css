@@ -48,3 +48,10 @@ p a {
 }
 
 
+@media screen and (max-width: 600px) {
+    div {
+      max-width:500px;
+    }
+
+    
+  }
